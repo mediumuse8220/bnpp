@@ -57,10 +57,10 @@ This project automates the extraction of key bond data fields from unstructured 
 
 ## Usage
 # Reconciliation (main workflow)
-** run -> python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
+** run -> python reconcile.py Genel_Enerrgy.pdf Genel_Energy_Trades.json
 ** or with a CSV booking extract:
 
-** run -> python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
+** run -> python reconcile.py Genel_Enerrgy.pdf Genel_Energy.csv
 **
 | Field          | LLM_Extracted               | Booking_Extract              | Match |
 |----------------|----------------------------|------------------------------|-------|
