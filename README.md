@@ -49,15 +49,17 @@ This project automates the extraction of key bond data fields from unstructured 
    git clone <your-repo-url>
    cd <your-repo-directory>
  
-3. **Install dependencies**
-  export HF_API_TOKEN=your_token_here
+2. **Install dependencies**
+  pip install -r requirements.txt
 
+3. **Set your Hugging Face API token (required for LLM extraction)**
+   export HF_API_TOKEN=your_token_here
 
-##Usage
-#Reconciliation (main workflow)
-python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
+## Usage
+# Reconciliation (main workflow)
+ python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
 or with a CSV booking extract:
-python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
+ python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
 
 | Field          | LLM_Extracted               | Booking_Extract              | Match |
 |----------------|----------------------------|------------------------------|-------|
@@ -69,10 +71,10 @@ python reconcile.py sample_data/example_termsheet.pdf sample_data/example_bookin
 | SettlementDate | 2020-10-14                 | 2020-10-14                   | TRUE  |
 
 
-##Example Term Sheet and Booking Files
+## Example Term Sheet and Booking Files
 *Provided in sample_data/ folder for demonstration purposes.
 You can replace with your own files as needed.
-##Notes
+## Notes
 No cloud deployment instructions are provided; all scripts are designed for local machine execution.
 For detailed workflow and design: See report.md.
 Field normalization: Minor formatting differences (spaces, %, "USD" vs "usd", date formats) are handled automatically.
