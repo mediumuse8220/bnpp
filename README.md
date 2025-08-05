@@ -48,11 +48,7 @@ This project automates the extraction of key bond data fields from unstructured 
    ```sh
    git clone <your-repo-url>
    cd <your-repo-directory>
-
-2. **Install dependencies**
-```sh
-  pip install -r requirements.txt
-  export HF_API_TOKEN=your_token_here  
+ 
 3. **Install dependencies**
   export HF_API_TOKEN=your_token_here
 
