@@ -57,8 +57,12 @@ This project automates the extraction of key bond data fields from unstructured 
 
 ## Usage
 # Reconciliation (main workflow)
+ ```sh
+
  python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
 or with a CSV booking extract:
+
+```sh
  python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
 
 | Field          | LLM_Extracted               | Booking_Extract              | Match |
@@ -72,10 +76,12 @@ or with a CSV booking extract:
 
 
 ## Example Term Sheet and Booking Files
-*Provided in sample_data/ folder for demonstration purposes.
-You can replace with your own files as needed.
+* Provided in sample_data/ folder for demonstration purposes.
+  You can replace with your own files as needed.
 ## Notes
 No cloud deployment instructions are provided; all scripts are designed for local machine execution.
+
 For detailed workflow and design: See report.md.
+
 Field normalization: Minor formatting differences (spaces, %, "USD" vs "usd", date formats) are handled automatically.
 
