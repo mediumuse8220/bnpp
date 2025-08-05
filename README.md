@@ -17,27 +17,6 @@ This project automates the extraction of key bond data fields from unstructured 
 ---
 
 ## Architecture Diagram
-+-------------------+ +--------------------------+
-
-| Term Sheet | | Booking Extract |
-| (PDF/TXT) | | (CSV/JSON) |
-+--------+----------+ +-----------+-------------+
-| |
-parse_term_sheet.py parse_booking_extract.py
-| |
-v v
-+-------------------+ +--------------------------+
-| utils_llm.py | | Dict (booking data) |
-+-------------------+ +--------------------------+
-| |
-+-------------------+----------------------+
-|
-reconcile.py
-|
-v
-reconciliation_report.csv
-
----
 
 ## Project Structure
 
