@@ -20,16 +20,16 @@ This project automates the extraction of key bond data fields from unstructured 
 
 ## Project Structure
 
-├── parse_term_sheet.py # Extract term fields from unstructured doc using LLM
-├── parse_booking_extract.py # Load structured record
-├── reconcile.py # Compare, normalize, and generate reconciliation CSV
-├── utils_llm.py # Utilities for calling LLM (Hugging Face API or local)
-├── requirements.txt # Python dependencies
-├── README.md # This file!
+├── parse_term_sheet.py        # Extract term fields from unstructured doc using LLM
+├── parse_booking_extract.py   # Load structured record
+├── reconcile.py               # Compare, normalize, and generate reconciliation CSV
+├── utils_llm.py               # Utilities for calling LLM (Hugging Face API or local)
+├── requirements.txt           # Python dependencies
+├── README.md                  # This file!
 ├── sample_data/
-│ ├── example_termsheet.pdf
-│ ├── example_booking.json
-│ └── example_booking.csv
+│   ├── example_termsheet.pdf
+│   ├── example_booking.json
+│   └── example_booking.csv
 
 ---
 
