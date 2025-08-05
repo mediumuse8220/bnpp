@@ -17,7 +17,7 @@ This project automates the extraction of key bond data fields from unstructured 
 ---
 
 ## Architecture Diagram
-<img width="235" height="660" alt="image" src="https://github.com/user-attachments/assets/a93a9c42-851f-433e-bce5-b8cd4da7bb60" />
+<img width="202" height="657" alt="image" src="https://github.com/user-attachments/assets/fd184e42-9340-4894-a522-7fde8a1dd934" />
 
 
 ## Project Structure
