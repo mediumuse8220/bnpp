@@ -1,9 +1,5 @@
 # parse_term_sheet.py
 import os
-os.environ["HOME"] = "/tmp"
-os.environ["XDG_CONFIG_HOME"] = "/tmp"
-os.environ["STREAMLIT_CONFIG_DIR"] = "/tmp/.streamlit"
-os.makedirs("/tmp/.streamlit", exist_ok=True)
 import sys
 from utils_llm import extract_fields_with_llm
 
