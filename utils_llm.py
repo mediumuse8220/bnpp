@@ -6,7 +6,7 @@ import re
 import requests
 
 API_URL = "https://router.huggingface.co/v1/chat/completions"
-HF_API_TOKEN = os.getenv("HF_API_TOKEN") 
+HF_API_TOKEN = os.getenv("HF_API_TOKEN") or "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"
 MODEL = "mistralai/Mistral-7B-Instruct-v0.2:featherless-ai"
 
 headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
