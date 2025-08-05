@@ -57,11 +57,11 @@ This project automates the extraction of key bond data fields from unstructured 
 
 ## Usage
 # Reconciliation (main workflow)
- python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
-or with a CSV booking extract:
+** run -> python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
+** or with a CSV booking extract:
 
- python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
-
+** run -> python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
+**
 | Field          | LLM_Extracted               | Booking_Extract              | Match |
 |----------------|----------------------------|------------------------------|-------|
 | ISIN           | NO0010894330               | NO0010894330                 | TRUE  |
