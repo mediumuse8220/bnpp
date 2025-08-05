@@ -46,8 +46,8 @@ This project automates the extraction of key bond data fields from unstructured 
 
 1. **Clone the repository**
    ```sh
-   git clone <your-repo-url>
-   cd <your-repo-directory>
+   git clone https://github.com/mediumuse8220/bnpp.git
+   cd bnpp
  
 2. **Install dependencies**
   pip install -r requirements.txt
