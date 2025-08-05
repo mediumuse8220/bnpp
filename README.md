@@ -57,8 +57,6 @@ This project automates the extraction of key bond data fields from unstructured 
 
 ## Usage
 # Reconciliation (main workflow)
- ```sh
-
  python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.json
 or with a CSV booking extract:
 
