@@ -18,6 +18,7 @@ This project automates the extraction of key bond data fields from unstructured 
 
 ## Architecture Diagram
 +-------------------+ +--------------------------+
+
 | Term Sheet | | Booking Extract |
 | (PDF/TXT) | | (CSV/JSON) |
 +--------+----------+ +-----------+-------------+
