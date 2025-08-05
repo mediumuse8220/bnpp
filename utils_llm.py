@@ -1,16 +1,12 @@
 # utils_llm.py
-import os
-os.environ["HOME"] = "/tmp"
-os.environ["XDG_CONFIG_HOME"] = "/tmp"
-os.environ["STREAMLIT_CONFIG_DIR"] = "/tmp/.streamlit"
-os.makedirs("/tmp/.streamlit", exist_ok=True)
+
 import os
 import json
 import re
 import requests
 
 API_URL = "https://router.huggingface.co/v1/chat/completions"
-HF_API_TOKEN = os.getenv("HF_API_TOKEN")
+HF_API_TOKEN = os.getenv("HF_API_TOKEN") 
 MODEL = "mistralai/Mistral-7B-Instruct-v0.2:featherless-ai"
 
 headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
