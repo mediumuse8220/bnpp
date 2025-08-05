@@ -17,6 +17,8 @@ This project automates the extraction of key bond data fields from unstructured 
 ---
 
 ## Architecture Diagram
+<img width="235" height="660" alt="image" src="https://github.com/user-attachments/assets/a93a9c42-851f-433e-bce5-b8cd4da7bb60" />
+
 
 ## Project Structure
 
@@ -73,12 +75,9 @@ This project automates the extraction of key bond data fields from unstructured 
 
 
 ## Example Term Sheet and Booking Files
-* Provided in sample_data/ folder for demonstration purposes.
+* Genel_Energy.csv and Genel_Energy.pdf and Genel_Energy_Trades.json for demonstration purposes.
   You can replace with your own files as needed.
 ## Notes
 No cloud deployment instructions are provided; all scripts are designed for local machine execution.
-
-For detailed workflow and design: See report.md.
-
 Field normalization: Minor formatting differences (spaces, %, "USD" vs "usd", date formats) are handled automatically.
 
