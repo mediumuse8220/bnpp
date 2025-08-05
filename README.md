@@ -63,36 +63,21 @@ python reconcile.py sample_data/example_termsheet.pdf sample_data/example_bookin
 or with a CSV booking extract:
 python reconcile.py sample_data/example_termsheet.pdf sample_data/example_booking.csv
 
-Sample Output
-FIELD
-LLM_EXTRACTED
-BOOKING_EXTRACT
-MATCH
-ISIN
-NO0010894330
-NO0010894330
-TRUE
-Issuer
-Genel Energy Finance Ltd
-Genel Energy Finance Ltd
-TRUE
-Coupon
-9.25
-9.25
-TRUE
-Notional
-3000000
-3000000
-TRUE
-Currency
-USD
-USD
-TRUE
-SettlementDate
-2020-10-14
-2020-10-14
-TRUE
+| Field          | LLM_Extracted               | Booking_Extract              | Match |
+|----------------|----------------------------|------------------------------|-------|
+| ISIN           | NO0010894330               | NO0010894330                 | TRUE  |
+| Issuer         | Genel Energy Finance Ltd    | Genel Energy Finance Ltd     | TRUE  |
+| Coupon         | 9.25                       | 9.25                         | TRUE  |
+| Notional       | 3000000                    | 3000000                      | TRUE  |
+| Currency       | USD                        | USD                          | TRUE  |
+| SettlementDate | 2020-10-14                 | 2020-10-14                   | TRUE  |
 
 
-Example Term Sheet and Booking FilesProvided in sample_data/ folder for demonstration purposes.You can replace with your own files as needed.NotesNo cloud deployment instructions are provided; all scripts are designed for local machine execution.For detailed workflow and design: See report.md.Field normalization: Minor formatting differences (spaces, %, "USD" vs "usd", date formats) are handled automatically.
+##Example Term Sheet and Booking Files
+*Provided in sample_data/ folder for demonstration purposes.
+You can replace with your own files as needed.
+##Notes
+No cloud deployment instructions are provided; all scripts are designed for local machine execution.
+For detailed workflow and design: See report.md.
+Field normalization: Minor formatting differences (spaces, %, "USD" vs "usd", date formats) are handled automatically.
 
