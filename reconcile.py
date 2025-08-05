@@ -1,9 +1,5 @@
 # reconcile.py
 import os
-os.environ["HOME"] = "/tmp"
-os.environ["XDG_CONFIG_HOME"] = "/tmp"
-os.environ["STREAMLIT_CONFIG_DIR"] = "/tmp/.streamlit"
-os.makedirs("/tmp/.streamlit", exist_ok=True)
 from parse_term_sheet import extract_term_sheet_fields
 from parse_booking_extract import parse_booking_file
 import csv
