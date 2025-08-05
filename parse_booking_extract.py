@@ -1,9 +1,5 @@
 # parse_booking_extract.py
 import os
-os.environ["HOME"] = "/tmp"
-os.environ["XDG_CONFIG_HOME"] = "/tmp"
-os.environ["STREAMLIT_CONFIG_DIR"] = "/tmp/.streamlit"
-os.makedirs("/tmp/.streamlit", exist_ok=True)
 import sys
 import json
 import csv
